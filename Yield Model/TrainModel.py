@@ -6,7 +6,7 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.metrics import mean_squared_error, accuracy_score
 import joblib
 
-# 
+# Load dataset
 df = pd.read_csv('agricultural_data.csv')
 
 # 
