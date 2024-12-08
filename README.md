@@ -53,9 +53,3 @@ The system uses a dataset consisting of:
 - Labeling images with specific disease categories.
 
 ---
-
-## How to Use
-
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/your-username/automated-agriculture-system.git
