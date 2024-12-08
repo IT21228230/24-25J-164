@@ -1,5 +1,5 @@
 # 24-25J-164
-#  Disease Analysis
+#  Disease Analysis - Sharan U.
 
 This repository contains the implementation of the **Automated Agriculture System** designed for **accurate water management** and **disease analysis** in tomato crops. The system leverages **machine learning**, **deep learning (CNNs)**, and **environmental data analysis** to provide real-time monitoring, disease detection, tailored interventions, and sustainable farming solutions.
 
@@ -54,9 +54,9 @@ The system uses a dataset consisting of:
 
 ---
 
-**IT21290206  Mayootharan P**
 
-**Yield Prediction and Harvest Readiness**
+
+# Yield Prediction and Harvest Readiness - IT21290206  Mayootharan P
 
 This repository contains the implementation of a research-driven system for tomato yield prediction, harvest readiness estimation, and fertilizer plan prediction using real-time sensor data and agricultural department datasets. The project leverages advanced data analytics and machine learning models to enhance agricultural productivity and sustainability.
 
@@ -126,3 +126,54 @@ The system integrates the following components:
    - Historical data on tomato yield, fertilizer usage, and harvest timelines, Growth stage
 2. Real-Time Sensor Data:
    - Soil temperature, environmental temperature, and humidity readings.
+
+# Watering   Management - Nakulabasgaran Y. IT21228230
+##  Overview
+
+Water Management Technology. 
+This project aims to:
+- This component focuses on integrating advanced technologies to optimize water
+usage in agricultural system, ensuring sustainable practices and reducing water 
+wastage while maintaining crop health.
+
+### Key Features
+1. Soil Moisture Sensors: These sensors measure the moisture content in the soil, ensuring that crops receive the optimal amount of water.
+2. Weather Forecast Integration: Utilizing weather data to predict rainfall and adjust irrigation schedules accordingly.
+3. Automated Irrigation Systems: These systems can be programmed to deliver precise amounts of water to crops based on real-time data.
+4. Scalability and Accessibility: Designed for small to medium-sized farms.
+5. User-Friendly Interface: Mobile app and web dashboard for watering.
+
+
+## System Architecture
+
+The system integrates the following components:
+
+    Data Collection: Real-time sensor data and historical datasets.
+    Preprocessing: Data cleaning, normalization, and feature extraction.
+    Model Training:
+        Watering prediction model.
+        Watering Schedule model.
+    Prediction and Visualization:
+        Generate insights and display them on a user-friendly dashboard.
+
+## Technologies Used
+
+    Programming Languages: Python
+    Machine Learning Frameworks: RandomForestRegressor
+    Database: Firebase for historical and real-time data storage
+    Frontend: React.js with Material UI
+    UI Design: Figma
+    Backend Integration: Docker, Kubernetes, Jenkins
+    Testing Tools: Jest, Postman, Unit Test, and Arduino IDE
+	Version Control: Git (GitHub/GitLab)
+    Tools: Submersible Mini pump - It give water to soil when the sensor sends the signal that the moisture level in the soil is low.
+	       Channel-5V-Relay-Module - turn on and off the pump automatically as the required water level is reached 
+	       ESP32 Microcontroller - For data processing and communication.
+
+## Data Sources
+
+    Agricultural Department Datasets:
+        Historical data on Precipitation (mm),Ambient Temp (°C),Humidity (%),Soil Temp (°C),Soil Moisture (%),Watering Action,Watering Duration (minutes)
+    Real-Time Sensor Data:
+        Precipitation (mm),Ambient Temp (°C),Humidity (%),Soil Temp (°C),Soil Moisture readings.
+
