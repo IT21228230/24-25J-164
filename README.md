@@ -54,18 +54,19 @@ The system uses a dataset consisting of:
 
 ---
 
-IT21290206  Mayootharan P
-Yield Prediction and Harvest Readiness System
+**IT21290206  Mayootharan P**
+
+**Yield Prediction and Harvest Readiness**
 
 This repository contains the implementation of a research-driven system for tomato yield prediction, harvest readiness estimation, and fertilizer plan prediction using real-time sensor data and agricultural department datasets. The project leverages advanced data analytics and machine learning models to enhance agricultural productivity and sustainability.
 
 ---
 
-Project Overview
+**Project Overview**
 
 Efficient farming requires accurate predictions of crop yield, harvest readiness, and fertilizer needs. This project aims to combine real-time data from sensors with **historical datasets from agricultural departments to provide actionable insights for farmers.
 
-Key Objectives
+**Key Objectives**
 1. Yield Prediction: Forecast the expected yield of tomato crops using historical and real-time data.
 2. Harvest Readiness: Estimate the optimal time for harvesting based on real-time environmental and crop data.
 3. Fertilizer Plan Prediction: Provide tailored fertilizer recommendations based on soil and environmental conditions.
@@ -73,7 +74,7 @@ Key Objectives
 
 ---
 
-Features
+**Features**
 
 - Real-Time Data Collection:
   - Soil Temperature Sensor: Monitors soil temperature.
@@ -92,7 +93,7 @@ Features
 
 ---
 
-System Architecture
+**System Architecture**
 
 The system integrates the following components:
 1. Data Collection: Real-time sensor data and historical datasets.
@@ -106,7 +107,7 @@ The system integrates the following components:
 
 ---
 
-Technologies Used
+**Technologies Used**
 
 - Programming Languages: Python
 - Machine Learning Frameworks: Random Forest
@@ -118,7 +119,8 @@ Technologies Used
 
 ---
 
-Data Sources
+
+**Data Sources**
 
 1. Agricultural Department Datasets:
    - Historical data on tomato yield, fertilizer usage, and harvest timelines, Growth stage
