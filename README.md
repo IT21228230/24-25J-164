@@ -1,4 +1,4 @@
-# 24-25J-164
+# 24-25J-164 
 #  Disease Analysis - Sharan U.
 
 This repository contains the implementation of the **Automated Agriculture System** designed for **accurate water management** and **disease analysis** in tomato crops. The system leverages **machine learning**, **deep learning (CNNs)**, and **environmental data analysis** to provide real-time monitoring, disease detection, tailored interventions, and sustainable farming solutions.
@@ -177,3 +177,4 @@ The system integrates the following components:
     Real-Time Sensor Data:
         Precipitation (mm),Ambient Temp (°C),Humidity (%),Soil Temp (°C),Soil Moisture readings.
 
+GitHub Repositorie Link - https://github.com/IT21228230/24-25J-164.git
