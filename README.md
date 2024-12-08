@@ -177,4 +177,55 @@ The system integrates the following components:
     Real-Time Sensor Data:
         Precipitation (mm),Ambient Temp (°C),Humidity (%),Soil Temp (°C),Soil Moisture readings.
 
-GitHub Repositorie Link - https://github.com/IT21228230/24-25J-164.git
+# Integrated Weather Forecasting and Plant Growth Monitoring System Based on Soil Moisture Analysis - Sankeethan Y. IT21228162
+
+##  Overview
+ 
+This project aims to:
+- This component integrates weather forecasting and soil moisture analysis to monitor plant growth and predict future growth patterns. 
+The goal is to optimize farming practices by aligning them with environmental conditions and crop needs.
+
+
+### Key Features
+1. Develop a system for monitoring plant growth.
+2. Weather Forecast Integration: Utilizing weather data to predict rainfall and adjust irrigation schedules accordingly.
+3. Predict growth outcomes based on customized fertilization.
+4. Scalability and Accessibility: Designed for small to medium-sized farms.
+5. User-Friendly Interface: Mobile app and web dashboard for monitoring plant growth.
+
+---
+
+## System Architecture
+
+The system integrates the following components:
+
+    Data Collection: Real-time sensor data and historical datasets.
+    Preprocessing: Data cleaning, normalization, and feature extraction.
+    Model Training:
+        plant growth prediction model.
+        Weather forecasting  model.
+    Prediction and Visualization:
+        Generate insights and display them on a user-friendly dashboard.
+
+## Technologies Used
+
+    Programming Languages: Python
+    Machine Learning Frameworks: RandomForestRegressor
+    Database: Firebase for historical and real-time data storage
+    Frontend: React.js with Material UI
+    UI Design: Figma
+    Backend Integration: Docker, Kubernetes, Jenkins
+    Testing Tools: Jest, Postman, Unit Test, and Arduino IDE
+	Version Control: Git (GitHub/GitLab)
+	Sensor : Soil Moisture Sensor Module- measure or estimate the amount of water in the soil. 
+    Tools: ESP32 Microcontroller - For data processing and communication.
+
+## Data Sources
+
+    Agricultural Department Datasets:
+Historical data on Soil Moisture (%),Precipitation(mm),Fertilizer Amount(kg),Plant Height(cm),Leaf Area(cmÂ²),Growth Stage
+
+    Real-Time Sensor Data:
+        Precipitation (mm),Soil Moisture readings.
+	
+# GitHub Repositorie Link - https://github.com/IT21228230/24-25J-164.git
