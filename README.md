@@ -53,3 +53,74 @@ The system uses a dataset consisting of:
 - Labeling images with specific disease categories.
 
 ---
+
+IT21290206  Mayootharan P
+Yield Prediction and Harvest Readiness System
+
+This repository contains the implementation of a research-driven system for tomato yield prediction, harvest readiness estimation, and fertilizer plan prediction using real-time sensor data and agricultural department datasets. The project leverages advanced data analytics and machine learning models to enhance agricultural productivity and sustainability.
+
+---
+
+Project Overview
+
+Efficient farming requires accurate predictions of crop yield, harvest readiness, and fertilizer needs. This project aims to combine real-time data from sensors with **historical datasets from agricultural departments to provide actionable insights for farmers.
+
+Key Objectives
+1. Yield Prediction: Forecast the expected yield of tomato crops using historical and real-time data.
+2. Harvest Readiness: Estimate the optimal time for harvesting based on real-time environmental and crop data.
+3. Fertilizer Plan Prediction: Provide tailored fertilizer recommendations based on soil and environmental conditions.
+
+
+---
+
+Features
+
+- Real-Time Data Collection:
+  - Soil Temperature Sensor: Monitors soil temperature.
+  - Environment Temperature Sensor: Measures ambient temperature.
+  - Humidity Sensor: Tracks environmental humidity.
+  
+- Data Integration:
+  - Combines sensor data with historical datasets from agricultural departments for better accuracy.
+  
+- Predictive Models:
+  - Machine learning models trained on historical and real-time data for yield, harvest readiness, and fertilizer recommendations.
+
+- User-Friendly Interface:
+  - Dashboard to visualize data and predictions.
+  - Alerts for harvest readiness and fertilizer application schedules.
+
+---
+
+System Architecture
+
+The system integrates the following components:
+1. Data Collection: Real-time sensor data and historical datasets.
+2. Preprocessing: Data cleaning, normalization, and feature extraction.
+3. Model Training:
+   - Yield prediction model.
+   - Harvest readiness estimation model.
+   - Fertilizer prediction model.
+4. Prediction and Visualization:
+   - Generate insights and display them on a user-friendly dashboard.
+
+---
+
+Technologies Used
+
+- Programming Languages: Python
+- Machine Learning Frameworks: Random Forest
+- Database: Firebase for historical and real-time data storage
+- Frontend: Flask 
+- Backend: Python
+- Sensors: Soil temperature, environmental temperature, and humidity sensors
+
+
+---
+
+Data Sources
+
+1. Agricultural Department Datasets:
+   - Historical data on tomato yield, fertilizer usage, and harvest timelines, Growth stage
+2. Real-Time Sensor Data:
+   - Soil temperature, environmental temperature, and humidity readings.
